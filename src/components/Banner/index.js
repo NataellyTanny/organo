@@ -7,7 +7,6 @@ const Banner = () => {
             <header className='banner'>
                 <img src="/imgs/banner.png" alt="Banner principal da página organo"></img>
             </header>
-            <h1>Teste</h1>
         </Fragment>
     )
 }
