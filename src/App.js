@@ -46,7 +46,7 @@ function App() {
   const [colaboradores, setColaboradores] = useState([])
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    console.log(colaborador)
+    //debugger <--- //faz o fluxo de debug linha a linha
     setColaboradores([...colaboradores, colaborador])
   }
 
